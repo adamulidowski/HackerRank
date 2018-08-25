@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab28f27-d998-4eae-a6d7-d5d5be3c5b21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/staircase/problem/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ulidowskia/challenges/comparethetriplets/problem/Solution.java" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/comparethetriplets/problem/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ulidowskia/challenges/diagonaldifference/problem/Solution.java" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/diagonaldifference/problem/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ulidowskia/challenges/dynamicarray/problem/Solution.java" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/dynamicarray/problem/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ulidowskia/challenges/plusminus/problem/Solution.java" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/plusminus/problem/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ulidowskia/challenges/twodarray/problem/Solution.java" afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/twodarray/problem/Solution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +74,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/twodarray/problem/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -455,6 +449,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -883,7 +878,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534960988197</updated>
-      <workItem from="1534960990308" duration="9131000" />
+      <workItem from="1534960990308" duration="9456000" />
     </task>
     <task id="LOCAL-00001" summary="2D Array - DS">
       <created>1534962348307</created>
@@ -913,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535221997852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Staircase, removed unused imports, formatting lines">
+      <created>1535222798783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535222798783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9131000" />
+    <option name="totallyTimeSpent" value="9456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -990,7 +992,8 @@
     <MESSAGE value="Compare the Triplets" />
     <MESSAGE value="Diagonal Difference" />
     <MESSAGE value="PLus Minus" />
-    <option name="LAST_COMMIT_MESSAGE" value="PLus Minus" />
+    <MESSAGE value="Staircase, removed unused imports, formatting lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Staircase, removed unused imports, formatting lines" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1101,8 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/twodarray/problem/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
