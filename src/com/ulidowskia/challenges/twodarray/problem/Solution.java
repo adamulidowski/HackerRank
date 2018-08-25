@@ -1,16 +1,10 @@
 package com.ulidowskia.challenges.twodarray.problem;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
-/**
- * Created by Adam on 22.08.2018.
- */
 public class Solution {
 
     // Complete the hourglassSum function below.

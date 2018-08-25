@@ -1,24 +1,19 @@
 package com.ulidowskia.challenges.comparethetriplets.problem;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
-/**
- * Created by Adam on 22.08.2018.
- */
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Solution {
 
     // Complete the solve function below.
     static int[] solve(int[] a, int[] b) {
-        int [] scores= {0, 0};
-        for(int i=0; i<a.length; i++){
-            if(a[i] > b[i]){
+        int[] scores = {0, 0};
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] > b[i]) {
                 scores[0]++;
-            } else if(a[i] < b[i]){
+            } else if (a[i] < b[i]) {
                 scores[1]++;
             }
         }

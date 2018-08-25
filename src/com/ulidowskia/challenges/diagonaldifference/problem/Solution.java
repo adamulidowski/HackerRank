@@ -1,16 +1,10 @@
 package com.ulidowskia.challenges.diagonaldifference.problem;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
-/**
- * Created by Adam on 25.08.2018.
- */
 public class Solution {
 
     // Complete the diagonalDifference function below.

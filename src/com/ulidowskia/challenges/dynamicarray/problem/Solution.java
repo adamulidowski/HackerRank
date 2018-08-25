@@ -1,17 +1,11 @@
 package com.ulidowskia.challenges.dynamicarray.problem;
 
-/**
- * Created by Adam on 22.08.2018.
- */
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
@@ -23,13 +17,13 @@ public class Solution {
         List<List<Integer>> seqList = createLists(n);
         int lastAnswer = 0;
         int seqNumber = 0;
-        for (List q :queries) {
-            if ((int)q.get(0) == 1) {
-                seqNumber = (((int)q.get(1) ^ lastAnswer) % n);
-                seqList.get(seqNumber).add((int)q.get(2));
+        for (List q : queries) {
+            if ((int) q.get(0) == 1) {
+                seqNumber = (((int) q.get(1) ^ lastAnswer) % n);
+                seqList.get(seqNumber).add((int) q.get(2));
             } else {
-                seqNumber = (((int)q.get(1) ^ lastAnswer) % n);
-                lastAnswer = seqList.get(seqNumber).get((int)q.get(2) % seqList.get(seqNumber).size());
+                seqNumber = (((int) q.get(1) ^ lastAnswer) % n);
+                lastAnswer = seqList.get(seqNumber).get((int) q.get(2) % seqList.get(seqNumber).size());
                 results.add(lastAnswer);
             }
         }
@@ -43,6 +37,7 @@ public class Solution {
         }
         return seqList;
     }
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
