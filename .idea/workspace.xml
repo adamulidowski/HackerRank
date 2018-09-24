@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab28f27-d998-4eae-a6d7-d5d5be3c5b21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/appleandorange/problem/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ulidowskia/challenges/kangaroo/problem/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eab28f27-d998-4eae-a6d7-d5d5be3c5b21" name="Default" comment="Apple and orange, kangaroo" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="C:\Users\Adam\OneDrive\Dokumenty\Programy\HackerRank\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,25 +31,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
           <entry key="java" value="3459" />
-          <entry key="txt" value="49" />
+          <entry key="txt" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3459" />
-          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
     </session>
@@ -67,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/comparethetriplets/problem/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/kangaroo/problem/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/grading/problem/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +124,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,10 +139,11 @@
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/minimaxsum/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/timeconversion/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/magicsquareforming/problem/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/grading/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/birthdaycakecandles/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/appleandorange/problem/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/kangaroo/problem/Solution.java" />
+        <option value="$PROJECT_DIR$/src/challenges/grading/problem/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/ulidowskia/challenges/grading/problem/Solution.java" />
       </list>
     </option>
   </component>
@@ -193,6 +203,25 @@
               <item name="ulidowskia" type="462c0819:PsiDirectoryNode" />
               <item name="challenges" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ulidowskia" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="appleandorange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ulidowskia" type="462c0819:PsiDirectoryNode" />
+              <item name="challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="appleandorange" type="462c0819:PsiDirectoryNode" />
+              <item name="problem" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -203,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537806467330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537806595644" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
@@ -263,38 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ulidowskia.challenges.minimaxsum.problem.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.staircase.problem.Solution" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ulidowskia.challenges.minimaxsum.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ulidowskia.challenges.timeconversion.problem.Solution" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ulidowskia.challenges.timeconversion.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ulidowskia.challenges.magicsquareforming.problem.Solution" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ulidowskia.challenges.magicsquareforming.problem.*" />
+          <option name="PATTERN" value="challenges.staircase.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +306,37 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ulidowskia.challenges.staircase.problem.Solution" />
+      <option name="MAIN_CLASS_NAME" value="challenges.minimaxsum.problem.Solution" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ulidowskia.challenges.staircase.problem.*" />
+          <option name="PATTERN" value="challenges.minimaxsum.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.timeconversion.problem.Solution" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.timeconversion.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ulidowskia.challenges.magicsquareforming.problem.Solution" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.magicsquareforming.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,7 +467,7 @@
       <workItem from="1534960990308" duration="9969000" />
       <workItem from="1535223807070" duration="642000" />
       <workItem from="1535225781229" duration="17120000" />
-      <workItem from="1537207012786" duration="7275000" />
+      <workItem from="1537207012786" duration="7563000" />
     </task>
     <task id="LOCAL-00001" summary="2D Array - DS">
       <created>1534962348307</created>
@@ -517,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535817524702</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Apple and orange, kangaroo">
+      <created>1537806505717</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1537806505717</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35006000" />
+    <option name="totallyTimeSpent" value="35294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,7 +571,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -550,7 +586,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4977307" visible="true" weight="0.28360656" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4977307" visible="true" weight="0.28360656" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.28360656" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
@@ -610,7 +646,8 @@
     <MESSAGE value="Birthday Cake Candles and Time Conversion" />
     <MESSAGE value="Forming a Magic Square" />
     <MESSAGE value="Grading Students" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grading Students" />
+    <MESSAGE value="Apple and orange, kangaroo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apple and orange, kangaroo" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -690,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/grading/problem/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/appleandorange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -710,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/comparethetriplets/problem/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,8 +760,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/kangaroo/problem/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ulidowskia/challenges/grading/problem/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
