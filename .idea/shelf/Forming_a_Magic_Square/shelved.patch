@@ -1,0 +1,148 @@
+Index: src/com/ulidowskia/challenges/magicsquareforming/problem/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/ulidowskia/challenges/magicsquareforming/problem/Solution.java	(date 1535314450675)
++++ src/com/ulidowskia/challenges/magicsquareforming/problem/Solution.java	(date 1535314450675)
+@@ -0,0 +1,139 @@
++package com.ulidowskia.challenges.magicsquareforming.problem;
++
++import java.io.IOException;
++import java.util.*;
++
++public class Solution {
++
++    // Complete the formingMagicSquare function below.
++    static int formingMagicSquare(int[][] s) {
++        int[] arr = toOneDimensionArray(s);
++        int firstRow = arr[0]+arr[1]+arr[2];
++        int secRow = arr[3]+arr[4]+arr[5];
++        int thiRow = arr[6]+arr[7]+arr[8];
++
++        int firstCol = arr[0]+arr[3]+arr[6];
++        int secCol = arr[1]+arr[4]+arr[7];
++        int thiCol = arr[2]+arr[5]+arr[8];
++
++        int fi = arr[0]+arr[4]+arr[8];
++        int se = arr[2]+arr[4]+arr[6];
++
++        int [] missingNumbers = missingNumbers(arr);
++        int [] duplicatedNumbers = duplicatedNumbers(arr);
++        for(int i=0; i<duplicatedNumbers.length; i++){
++            System.out.print(duplicatedNumbers[i]+" ");
++        }
++        System.out.println();
++        int minValue = 50;
++        int score = 0;
++        int x=10;
++        Random rn = new Random();
++        int answer = rn.nextInt(10) + 1;
++        int answer2 = rn.nextInt(10) + 1;
++        int g=0;
++
++        for(int i=0; i<missingNumbers.length; i++){
++            for(int j=0; j<duplicatedNumbers.length; j++){
++                if (Math.abs(duplicatedNumbers[j] - missingNumbers[i]) < minValue && duplicatedNumbers[j]!=20) {
++                    minValue = Math.abs(duplicatedNumbers[j] - missingNumbers[i]);
++                    x = j;
++                    System.out.println(missingNumbers[i]+ " "+ duplicatedNumbers[j]+ " min value:" + minValue);
++                }
++            }
++            System.out.println("min value:" + minValue);
++            score= score+minValue;
++            minValue = 50;
++            duplicatedNumbers[x]=20;
++        }
++        return score;
++    }
++
++    private static int[] duplicatedNumbers(int[] arr) {
++        List<Integer> numbers = new ArrayList<>();
++        for (int i = 0; i < arr.length; i++) {
++            numbers.add(arr[i]);
++        }
++        Collections.sort(numbers);
++        List<Integer> duplicates = new ArrayList<>();
++        int[] a = numbers.stream()
++                .mapToInt(Integer::intValue)
++                .toArray();
++        for(int i=0; i<a.length-1;i++){
++            if(a[i]==a[i+1]){
++                duplicates.add(a[i]);
++            }
++        }
++        int[] b = duplicates.stream()
++                .mapToInt(Integer::intValue)
++                .toArray();
++        return b;
++    }
++
++    private static int[] missingNumbers(int[] arr) {
++        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
++        boolean[] isIn = {false, false, false, false, false, false, false, false, false};
++        for (int i = 0; i < numbers.length; i++) {
++            for (int j = 0; j < numbers.length; j++) {
++                if (numbers[i] == arr[j]) {
++                    isIn[i] = true;
++                }
++            }
++        }
++        List<Integer> list = new ArrayList<>();
++        for (int i = 0; i < arr.length; i++) {
++            if (!isIn[i]) {
++                list.add(numbers[i]);
++            }
++        }
++        int[] a = list.stream()
++                .mapToInt(Integer::intValue)
++                .toArray();
++        return a;
++    }
++
++    private static int[] toOneDimensionArray(int[][] s) {
++        int arr[] = new int[9];
++        int counter = 0;
++        for (int i = 0; i < 3; i++) {
++            for (int j = 0; j < 3; j++) {
++                arr[counter] = s[i][j];
++                counter++;
++            }
++        }
++        return arr;
++    }
++
++    //  private static final Scanner scanner = new Scanner(System.in);
++
++    public static void main(String[] args) throws IOException {
++        //   BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
++
++        int[][] tab = {
++                {2, 9, 8},
++                {4, 2, 7},
++                {5, 6, 7}
++        };
++
++        System.out.println(formingMagicSquare(tab));
++    }
++
++//        for (int i = 0; i < 3; i++) {
++//            String[] sRowItems = scanner.nextLine().split(" ");
++//            scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
++
++//            for (int j = 0; j < 3; j++) {
++//                int sItem = Integer.parseInt(sRowItems[j]);
++//                s[i][j] = sItem;
++//            }
++//        }
++
++//        int result = formingMagicSquare(s);
++
++//        bufferedWriter.write(String.valueOf(result));
++//        bufferedWriter.newLine();
++
++//        bufferedWriter.close();
++
++//        scanner.close();
++}
+\ No newline at end of file
