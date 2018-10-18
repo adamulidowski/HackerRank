@@ -8,9 +8,12 @@ import java.util.Scanner;
 public class Solution {
 
     static int pageCount(int n, int p) {
-        int beggining = countPagesFromBeginning(p);
+        int beginning = countPagesFromBeginning(p);
         int end = countPagesFromEnd(n, p);
-        return beggining < end ? beggining : end;
+        return beginning < end ? beginning : end;
+
+        //Or just:
+        //return p / 2 < (n / 2 - p / 2) ? p / 2 : n / 2 - p / 2;
     }
 
     private static int countPagesFromBeginning(int pageNumber) {
