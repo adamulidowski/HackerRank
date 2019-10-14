@@ -1,4 +1,4 @@
-package com.ulidowskia.challenges.jumpingonthecloudsrevisited;
+package com.ulidowskia.challenges.jumpingonthecloudsrevisited.problem;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
