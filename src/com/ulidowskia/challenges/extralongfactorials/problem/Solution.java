@@ -1,14 +1,17 @@
 package com.ulidowskia.challenges.extralongfactorials.problem;
 
+import java.math.BigInteger;
 import java.util.Scanner;
-
-import static com.google.common.math.BigIntegerMath.factorial;
 
 public class Solution {
 
     // Complete the extraLongFactorials function below.
     static void extraLongFactorials(int n) {
-        System.out.println(factorial(n));
+        BigInteger fact = new BigInteger("1");
+        for (int i = 1; i <= n; i++) {
+            fact = fact.multiply(new BigInteger(i + ""));
+        }
+        System.out.println(fact.toString());
     }
 
     private static final Scanner scanner = new Scanner(System.in);
