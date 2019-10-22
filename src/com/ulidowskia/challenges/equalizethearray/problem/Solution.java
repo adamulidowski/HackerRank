@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.util.*;
 import java.util.function.Function;
 
+import static java.util.Arrays.stream;
+import static java.util.Collections.max;
+import static java.util.Map.Entry.comparingByValue;
 import static java.util.stream.Collectors.*;
 
 public class Solution {
@@ -13,12 +16,12 @@ public class Solution {
     // Complete the equalizeArray function below.
     static int equalizeArray(int[] arr) {
 
-        List<Integer> intList = Arrays.stream(arr)
+        List<Integer> intList = stream(arr)
                 .boxed()
                 .collect(toList());
 
         Map<Integer, Long> numOfInts = intList.stream().collect(groupingBy(Function.identity(), counting()));
-        Integer key = Collections.max(numOfInts.entrySet(), Map.Entry.comparingByValue()).getKey();
+        Integer key = max(numOfInts.entrySet(), comparingByValue()).getKey();
 
         return (int) intList.stream().filter(integer -> integer != key).count();
     }
