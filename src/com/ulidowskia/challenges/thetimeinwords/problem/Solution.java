@@ -5,6 +5,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+import static java.lang.String.format;
+
 public class Solution {
 
 
@@ -17,27 +19,21 @@ public class Solution {
     public static String O_CLOCK = "o' clock";
     public static String MINUTES = "minutes";
     public static String MINUTE = "minute";
+    public static String EMPTY = "";
 
     // Complete the timeInWords function below.
     static String timeInWords(int h, int m) {
         if (m == 30) {
-            return String.format("%s %s %s", HALF, PAST, HOURS_0_TO_13[h]);
+            return format("%s %s %s", HALF, PAST, HOURS_0_TO_13[h]);
         } else if (m == 00) {
-            return String.format("%s %s", HOURS_0_TO_13[h], O_CLOCK);
-        } else if (m == 15) {
-            return String.format("%s %s %s", MINUTES_0_TO_20[15], PAST, HOURS_0_TO_13[h]);
-        } else if (m == 45) {
-            return String.format("%s %s %s", MINUTES_0_TO_20[15], TO, HOURS_0_TO_13[h + 1]);
-        } else if (m == 01) {
-            return String.format("%s %s %s %s", MINUTES_0_TO_20[1], MINUTE, PAST, HOURS_0_TO_13[h]);
-        } else if (m == 59) {
-            return String.format("%s %s %s %s", MINUTES_0_TO_20[1], MINUTE, TO, HOURS_0_TO_13[h + 1]);
+            return format("%s %s", HOURS_0_TO_13[h], O_CLOCK);
         }
-
         int newMinute = m > 30 ? 60 - m : m;
-        String minuteStr = newMinute > 20 ? String.format("%s %s", MINUTES_0_TO_20[20], MINUTES_0_TO_20[newMinute - 20]) : MINUTES_0_TO_20[newMinute];
-        return m > 30 ? String.format("%s %s %s %s", minuteStr, MINUTES, TO, HOURS_0_TO_13[h + 1]) :
-                String.format("%s %s %s %s", minuteStr, MINUTES, PAST, HOURS_0_TO_13[h]);
+        String minuteStr = newMinute > 20 ? format("%s %s", MINUTES_0_TO_20[20], MINUTES_0_TO_20[newMinute - 20]) : MINUTES_0_TO_20[newMinute];
+        return format("%s %s %s",
+                minuteStr,
+                newMinute == 01 ? MINUTE : newMinute == 15 ? EMPTY : MINUTES,
+                m > 30 ? format("%s %s", TO, HOURS_0_TO_13[h + 1]) : format("%s %s", PAST, HOURS_0_TO_13[h])).replaceAll("  ", " ");
     }
 
     private static final Scanner scanner = new Scanner(System.in);
