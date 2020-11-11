@@ -3,9 +3,7 @@ package com.ulidowskia.challenges.taumandbday.problem;
 import java.io.*;
 import java.util.stream.IntStream;
 
-import static java.lang.Long.parseUnsignedLong;
 import static java.lang.Math.min;
-import static java.lang.String.valueOf;
 
 class Result {
 
