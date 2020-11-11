@@ -21,14 +21,9 @@ class Result {
      *  5. INTEGER z
      */
     public static long taumBday(int b, int w, int bc, int wc, int z) {
-        long longB = parseUnsignedLong(valueOf(b));
-        long longBc = parseUnsignedLong(valueOf(bc));
-        long longW = parseUnsignedLong(valueOf(w));
-        long longWc = parseUnsignedLong(valueOf(wc));
-        long longZ = parseUnsignedLong(valueOf(z));
-        long originalCost = (longB * longBc) + (longW * longWc);
-        long blackToWhiteCost = (longB * (longWc + longZ)) + (longW * longWc);
-        long whiteToBlackCost = (longW * (longBc + longZ)) + (longB * longBc);
+        long originalCost = ((long)b * (long)bc) + ((long)w * (long)wc);
+        long blackToWhiteCost = ((long)b * ((long)wc + (long)z)) + ((long)w * (long)wc);
+        long whiteToBlackCost = ((long)w * ((long)bc + (long)z)) + ((long)b * (long)bc);
         return min(min(blackToWhiteCost, whiteToBlackCost), originalCost);
     }
 }
