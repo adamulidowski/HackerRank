@@ -11,7 +11,7 @@ public class Solution {
 
     // Complete the angryProfessor function below.
     static String angryProfessor(int k, int[] a) {
-        return stream(a).filter(value -> value <= 0).count() >= k ? "NO" : "YESS";
+        return stream(a).filter(value -> value <= 0).count() >= k ? "NO" : "YES";
     }
 
     private static final Scanner scanner = new Scanner(System.in);
